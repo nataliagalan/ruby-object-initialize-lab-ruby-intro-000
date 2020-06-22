@@ -1,5 +1,10 @@
 class Person
-  def initialize(name)
+  def initialize(name, breed)
   @name = name
+  @breed = breed
+    if @breed == nil
+    @breed == "Mutt"
+    end
   end
+
 end
